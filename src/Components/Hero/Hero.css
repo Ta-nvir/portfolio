@@ -1,0 +1,100 @@
+img{
+    height: 220px;
+    width: 220px;
+    border-radius: 20%;
+    margin-top: 130px;
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+}
+.hero h1{
+    text-align: center;
+    width: 1000px;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.hero h1 span{
+    color: #00ffe0; 
+  background: linear-gradient(90deg, #00ffe0, #7d2ae8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.hero-connect{
+  background: #111; 
+  color: #f5f5f5; 
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 40px;
+  /* box-shadow: 0 0 15px rgba(0, 255, 255, 0.2); */
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+}
+.hero-resume{
+  background: #111; 
+  color: #f5f5f5; 
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 40px;
+  /* box-shadow: 0 0 15px rgba(0, 255, 255, 0.2); */
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  margin-bottom: 5px;
+
+}
+
+
+
+    
+
+.links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;                   
+  color: white;
+  text-decoration: none;      
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 5px;
+}
+
+.linkedin-link:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+  border-color: rgba(0, 255, 255, 0.6);
+  
+
+}
+
+.linkedin-link i {
+  font-size: 30px;
+}
+
