@@ -6,7 +6,7 @@ import Education from './Components/Education/Education'
 import Project from './Components/Projects/Project'
 import Certification from './Components/Certifications/Certification'
 import Contact from './Components/Contact/Contact'
-import './global.css'
+import './Global.css'
 
 
 const App = () => {
